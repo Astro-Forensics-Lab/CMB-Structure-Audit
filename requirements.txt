@@ -1,0 +1,7 @@
+# CMB-Structure-Audit - Requirements (v3.3)
+# Only packages actually used in the codebase
+
+numpy>=1.26.0
+healpy>=1.16.6
+scipy>=1.11.0
+matplotlib>=3.8.0
