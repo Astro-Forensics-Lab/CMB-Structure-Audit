@@ -1,5 +1,0 @@
-numpy>=1.26.0
-healpy>=1.16.6
-scipy>=1.11.0
-matplotlib>=3.8.0
-astropy>=6.0.0
