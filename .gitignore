@@ -1,0 +1,26 @@
+# === Data files ===
+# Prevents large astronomical datasets from being uploaded
+data/*.fits
+data/*.zip
+
+# Keep the official theory file (Essential for Baseline)
+!data/COM_PowerSpect_CMB-base-plikHM-TTTEEE-lowl-lowE-lensing-minimum-theory_R3.01.txt
+
+# === Results and Logs ===
+# Let users generate their own results locally
+results/*.png
+results/*.log
+results/*.txt
+results/*.npy
+
+# === Python and System garbage ===
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# === Metadata ===
+# Ensure .gitkeep files are ALWAYS tracked so folders exist
+!.gitkeep
